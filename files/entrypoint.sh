@@ -188,9 +188,6 @@ generate_config() {
     },
     "outbounds":[
         {
-            "protocol":"freedom"
-        },
-        {
             "tag":"WARP",
             "protocol":"wireguard",
             "settings":{
@@ -212,6 +209,9 @@ generate_config() {
                 "reserved":[78, 135, 76],
                 "mtu":1280
             }
+        },
+        {
+            "protocol":"freedom"
         }
     ],
     "routing":{
