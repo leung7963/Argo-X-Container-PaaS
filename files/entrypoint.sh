@@ -31,7 +31,7 @@ generate_config() {
                         "dest":3001
                     },
                     {
-                        "path":"/vless",
+                        "path":"/vless-argo",
                         "dest":3002
                     },
                     {
@@ -86,7 +86,7 @@ generate_config() {
                 "network":"ws",
                 "security":"none",
                 "wsSettings":{
-                    "path":"/vless"
+                    "path":"/vless-argo"
                 }
             },
             "sniffing":{
