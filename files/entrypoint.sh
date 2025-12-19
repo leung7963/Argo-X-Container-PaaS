@@ -183,7 +183,7 @@ generate_config() {
     ],
     "dns":{
         "servers":[
-            "https+local://8.8.8.8/dns-query"
+            "https+local://dns.google/dns-query"
         ]
     },
     "outbounds":[
