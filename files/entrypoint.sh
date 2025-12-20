@@ -183,7 +183,7 @@ generate_config() {
     ],
     "dns":{
         "servers":[
-            "https+local://dns.google/dns-query"
+            "https+local://doh-9ob.pages.dev/dns-query"
         ]
     },
     "outbounds":[
